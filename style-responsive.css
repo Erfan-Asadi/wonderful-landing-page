@@ -53,7 +53,7 @@
         font-size: 70px;
     }
 
-    .landing-page__content button {
+    .landing-page__content .btn {
         padding: 7px 15px 8px;
         font-size: 13px;
     }
@@ -94,6 +94,14 @@
         font-size: 22px;
         margin-bottom: 20px;
     }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .social-media {
+        margin: 0;
+    }
 }
 @media screen and (max-width: 480px) {
     .landing-page__content h1 {
@@ -103,7 +111,7 @@
     .our-work {
         padding: 30px 10px;
     }
-    .landing-page__content button {
+    .landing-page__content .btn {
         padding: 7px 15px 8px;
         font-size: 13px;
         margin-top: 15px;
@@ -139,5 +147,9 @@
         bottom: -52px;
         left: 100%;
         top: unset;
+    }
+
+    footer {
+        padding: 16px;
     }
 }
